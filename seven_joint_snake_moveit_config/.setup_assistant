@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: snake_robot
+    relative_path: snake_description/urdf/sevenJoints.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/sevenJointsSnake.srdf
+  CONFIG:
+    author_name: zion
+    author_email: guzhaoyuan@126.com
+    generated_timestamp: 1533134114
